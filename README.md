@@ -1,0 +1,6 @@
+# Next.js 15 App Router: Unexpected Link Component Behavior
+
+This repository demonstrates an unexpected behavior encountered with the Next.js 15 app router's `Link` component.  In certain situations, navigation using the `Link` component may not function as expected, potentially leading to unexpected routing behavior or rendering issues.  The exact cause may vary depending on the application's structure and routing configuration. The solution explores potential fixes and workarounds to address such scenarios. 
+
+## Bug Description
+The `Link` component in the example demonstrates an inconsistent navigation behavior.  While under normal conditions, it should seamlessly navigate between pages, certain conditions (e.g., complex routing, client-side routing transitions) may lead to the `Link` not working properly.  This might manifest as a lack of navigation, incorrect page rendering or other unpredictable behaviors.  This bug report aims to highlight this inconsistency and propose potential solutions.
